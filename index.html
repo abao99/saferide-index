@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>安騎</title>
+        <!-- Bootstrap的css樣式 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 自訂的css樣式 -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Google Map的js函式庫 -->
+    <script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+    <!-- jQuery函式庫 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap的js函式庫 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- 自訂的js程式碼檔案 -->
+    <script src="js/custom.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-94074110-2', 'auto');
+          ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+	<!-- 第1個區塊 - 首頁 -->
+	
+  	<div id="home" class="text-vcenter">
+    		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    
+    <div class="item active">
+      <img class="marginc" src="./images/1.jpg">
+      <div class="carousel-caption">
+        <h1>SafeRide</h1>
+        <p class="lead">Safe Ride,Guard Your Life</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img class="marginc" src="./images/2.jpg">
+      <div class="carousel-caption">
+        <h1>SafeRide</h1>
+        <p class="lead">Safe Ride,Guard Your Life</p>
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  		</div>
+	
+	<!-- 第1個區塊 -->
+
+	
+
+
+	<!-- 選單導航列 -->
+	<nav class="navbar navbar-default navbar-fixed-top navbar navbar-inverse" >
+
+    <div class="container">
+
+      <div class="navbar-header">
+        <!--給手機按鈕使用的-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            
+          </button>
+        <!--給手機按鈕使用的-->
+
+        <!--  網站的Logo -->
+          <a class="navbar-brand" href="http://www.saferide.byethost9.com/saferide/">
+            <img src="./images/logolight.png"  style="width: 30%; height: 50px;">
+          </a>
+        <!--  網站的Logo -->
+
+      </div>
+
+      <!-- 一般用的網站選單列 -->
+      <div id="navbar" class="navbar-collapse collapse ">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">首頁</a></li>
+            <li><a href="#services">產品服務</a></li>
+            
+        </ul>
+      </div>
+      <!-- 一般用的網站選單列 -->
+
+    	</div>
+
+  	</nav>
+  	<!-- 選單導航列 -->
+
+  	<!-- 第3區塊 - 產品服務 -->
+<div id="services" class="top-bottom-pad">
+  <div class="container">
+    <h2 class="text-center">產品服務</h2> <hr />
+    <div class="row text-center">
+      <div class="col-sm-3 col-xs-6">
+        <a href="http://saferide.byethost9.com/shop/" class="glyphicon glyphicon-shopping-cart" id="a-pro"></a>
+        <h4>購物車</h4>
+  
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <a href="http://saferide.byethost9.com/blog/" class="glyphicon glyphicon-leaf" id="a-pro"></a>
+        <h4>部落格</h4>
+        
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <a href="http://saferide.byethost9.com/mobile/" class="glyphicon glyphicon-phone" id="a-pro"></a>
+        <h4>手機版網站</h4>
+       
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <a href="http://saferide.byethost9.com/saferide/" class="glyphicon glyphicon-cloud" id="a-pro"></a>
+        <h4>SafeRide</h4>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 第3區塊 -->
+
+
+
+<!-- 頁腳(footer) -->
+<footer>
+  <div class="container">
+    <p>電話：(04)-12345678 &nbsp 地址:台中市西屯區工業一路100號J201室</p>
+    <p class="text-right">版權所有 &copy; SafeRide</p>
+  </div>
+</footer>
+<!-- 頁腳(footer) -->
+
+<!-- 回到上方的連結 -->
+<ul class="nav pull-right scroll-top">
+  <li><a href="#home" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+</ul>
+<!-- 回到上方的連結 -->
+</body>
+</html>

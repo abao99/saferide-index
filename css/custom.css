@@ -1,0 +1,134 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* 文字垂直置中 */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* 文字大小 */
+.text-vcenter h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color:#82d900;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-color{
+	color:#36C;
+}
+
+/* 第1個區塊用 */
+#home {
+  /*background: url(../images/home.jpg) no-repeat center center fixed;*/
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-color:#222222;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+}
+
+.marginc{
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:auto;
+        margin-right:auto;
+        width: 100%;
+        height: 100%;
+      }
+
+/* 拉大間距 */
+.top-bottom-pad {
+  padding: 70px 0;
+}
+
+/* 修正上方固定導航列 */
+body {
+  padding-top: 50px;
+}
+
+/* 背景顏色與字的顏色*/
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+/* 圖示字型的大小與外觀 */
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#a-pro{
+  background-color: #306d9f;
+  color: #ffffff;
+  text-decoration: none;	
+}
+
+/* 第4個區塊用 */
+#info {
+  /* background: url(../images/info.jpg) no-repeat center center fixed;*/
+  display: table;
+  height: 600px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* 第4個區塊中的新聞用 */
+#info .panel {
+  opacity: 0.85;
+}
+
+/* 第5個區塊中使用 */
+#goomap{
+   height:500px;
+}
+
+/*頁腳使用的樣式*/
+footer {
+    background-color:#494949;
+    color:#ddd;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+/*回到上方區塊使用的樣式*/
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:15px;
+   z-index:100;
+   font-size:24px;
+   margin-bottom:20px;
+   margin-right:10px;
+   background-color: #8f8f8f;
+}
+.scroll-top a:link, .scroll-top a:visited {
+   color:#777;
+}
+
+.navbar-brand{
+  padding-top: 0px;
+}
